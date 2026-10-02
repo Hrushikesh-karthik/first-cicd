@@ -9,14 +9,7 @@ public class HomeController {
     @GetMapping("/")
     public String home() {
         return """
-            🚀 Java Application Running!
-
-            Successfully deployed using:
-            Java + Spring Boot
-            Docker
-            Kubernetes
-
-            Hello from Localhostyy! ☸️
+            Hello from CI/CD!
             """;
     }
 
