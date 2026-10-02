@@ -8,7 +8,7 @@ image:
   repository: uhkarthik/java_app
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
+  tag: "37075792981"
 
 ingress:
   enabled: false
