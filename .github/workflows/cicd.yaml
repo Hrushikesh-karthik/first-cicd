@@ -80,14 +80,14 @@ jobs:
 
       - name: Update Image Tag in Helm Chart
         run: |
-          sed -i 's/tag: .*/tag: "${{ github.run_id }}"/' helm/java-app/values.yaml
+          sed -i 's/tag: .*/tag: "${{ github.run_id }}"/' helm/java-main-app/values.yaml
 
       - name: Commit and Push Changes
         run: |
           git config --global user.email "github-actions@github.com"
           git config --global user.name "github-actions"
 
-          git add helm/java-app/values.yaml
+          git add helm/java-main-app/values.yaml
 
           git commit -m "Update image tag to ${{ github.run_id }}"
 
