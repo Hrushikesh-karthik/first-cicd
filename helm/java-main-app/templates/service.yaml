@@ -11,5 +11,5 @@ spec:
     targetPort: 8080
     protocol: TCP
   selector:
-    app: java-app
+    app: java-main-app
   type: NodePort
