@@ -16,7 +16,7 @@ public class HomeController {
             Docker
             Kubernetes
 
-            Hello from Localhosty! ☸️
+            Hello from Localhostyy! ☸️
             """;
     }
 
